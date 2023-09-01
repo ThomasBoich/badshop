@@ -810,6 +810,38 @@ img {
     margin: 0% 5% 5% 0%;
 }
 .favorite-content .item:nth-of-type(3n){margin: 0% 0% 5% 0%;}
+.subscribes-form{}
+.subscribes-form h2{font-size: 20px;font-weight: 500;}
+form.subscribes-form{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+form.subscribes-form button{width: 300px;cursor: pointer;}
+form.subscribes-form button:hover{opacity: 0.5;}
+.clearboth{content: "";clear: both;}
+.email-subscribes{margin: 0px 0px 20px 0px;}
+.email-subscribes input{
+    border-radius: 15px;
+    border: 2px solid #00B44E;
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+    font-size: 20px;
+}
+.email-subscribes p{
+    position: relative;
+    top: 15px;
+    background-color: #FFFFFF;
+    padding: 5px 5px 5px 5px;
+    left: 20px;
+    width: fit-content;
+    color: #5A5A5A;
+    font-size: 20px;
+}.rubriks{
+    margin: 0px 0px 20px 0px;
+}.rubriks h2{padding: 0px 0px 20px 0px;}
+.format{margin: 0px 0px 20px 0px;}
+.format h2{padding: 0px 0px 20px 0px}
 @media (max-width: 1460px) {
     .navigation a {
         font-size: 16px;
