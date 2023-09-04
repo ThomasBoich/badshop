@@ -970,5 +970,79 @@ form.subscribes-form button:hover{opacity: 0.5;}
     .container {
         max-width: 100% !IMPORTANT;
         border-radius: 12px !IMPORTANT;
+        height: 300px!IMPORTANT;
     }
+
+    .centered-text .button-wrapper button {
+        border: 0!IMPORTANT;
+        outline: 0!IMPORTANT;
+        cursor: pointer!IMPORTANT;
+        background-color: #417f56!IMPORTANT;
+        background-color: #00B44E!IMPORTANT;
+        padding: 12px 20px 12px 20px!IMPORTANT;
+        color: #fff!IMPORTANT;
+        border-radius: 50px!IMPORTANT;
+        height: fit-content!IMPORTANT;
+        font-size: 15px!IMPORTANT;
+        font-weight: 500!IMPORTANT;
+        display: flex!IMPORTANT;
+        align-items: center!IMPORTANT;
+        cursor: pointer!IMPORTANT;
+    }
+    .image-box .centered-text p {
+        font-size: 15px!IMPORTANT;
+        max-width: 350px!IMPORTANT;
+        text-wrap: wrap!IMPORTANT;
+        font-weight: 400!IMPORTANT;
+    }
+
+    .drop-down{font-size: 15px;}
+
+    .nav-phone button{display: none;}
+
+    .nav-logo-items .drop-down{display: none;}
+    .search{display: none;}
+    .nav-contacts button{display: none;}
+    .navigation{display: none;}
+    .cabinet-button span{display: none;}
+    .cart-button span{display: none;}
+    .cabinet-button{width: auto;}
+    .nav-phone span{display: none;}
+    .nav-contacts{height: auto;margin: 0px 0px 0px 19px;}
+    .container{width: 100%!IMPORTANT;border-radius: 0px!IMPORTANT;max-width: 100%!IMPORTANT;}
+    .image-box .centered-text{left: 28%!IMPORTANT;}
+    .nav-logo-items{margin: 0 0 0 0;}
+    .logo{margin: 0 0 0 0;}
+    .logo img{width: 100%;}
+    .like-button img{
+        width: 20px!IMPORTANT;
+        height: 20px!IMPORTANT;
+    }
+    .footer-contacts .drop-down{
+        margin: 0px 0px 20px 0px;
+    }
+    .copiryght{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 999px){
+    .item-img{height: 22vw;}
+    .owl-carousel .owl-item img{height: 15vw!IMPORTANT;}
+    .footer-nav{flex-direction: column;}
+    .nav-content ul li{font-size: 15px;}
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+    .footer-contacts{flex-direction: column;}
+}
+
+@media (max-width: 768px){
+    .item-img{height: 30vw;}
+    .owl-carousel .owl-item img{height: 20vw!IMPORTANT;}
+    .like-button img {height: 20px!IMPORTANT;}
 }
