@@ -1142,5 +1142,5 @@ form.subscribes-form button:hover{opacity: 0.5;}
     .item-price{
         font-size: 14px!IMPORTANT;
     }
-    .item-rating{font-size: 14px!IMPORTANT;}
+    .item-rating{font-size: 14px!IMPORTANT;right: 5px;position: relative;}
 }
