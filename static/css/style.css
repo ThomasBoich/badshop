@@ -1130,9 +1130,9 @@ form.subscribes-form button:hover{opacity: 0.5;}
 }
 @media (max-width: 370px){
     .item-info{
-        /* flex-direction: column;
+        flex-direction: column;
         justify-content: flex-start;
-        align-items: flex-start; */
+        align-items: flex-start;
     }
     .item-content a h2 {
         margin: 0px 0px 5px 0px;
