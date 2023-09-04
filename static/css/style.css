@@ -1058,7 +1058,7 @@ form.subscribes-form button:hover{opacity: 0.5;}
         background-color: #00B44E;
         border-radius: 50px;
         height: fit-content;
-        font-size: 15px;
+        font-size: 12px;
         color: #FFFFFF;
         display: flex;
         justify-content: center;
@@ -1067,5 +1067,13 @@ form.subscribes-form button:hover{opacity: 0.5;}
         width: fit-content;
         font-weight: 600;
         padding: 9px 20px 9px 20px;
+    }
+    
+
+    .carousel-wrap {
+        margin: 20px auto!IMPORTANT;
+        padding: 0 5%!IMPORTANT;
+        width: 100%!IMPORTANT;
+        position: relative!IMPORTANT;
     }
 }
