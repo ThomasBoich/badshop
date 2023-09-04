@@ -1020,21 +1020,33 @@ form.subscribes-form button:hover{opacity: 0.5;}
     .nav-logo-items{margin: 0 0 0 0;}
     .logo{margin: 0 0 0 0;}
     .logo img{width: 100%;}
+    .like-butto{display: flex!IMPORTANT;}
     .like-button img{
         width: 20px!IMPORTANT;
         height: 20px!IMPORTANT;
+        display: flex!IMPORTANT;
+        object-fit: cover!IMPORTANT;
     }
     .footer-contacts .drop-down{
         margin: 0px 0px 20px 0px;
     }
     .copiryght{
         font-size: 15px;
+        width: 90%;
+    }
+
+    .swiper {
+        overflow: hidden!IMPORTANT;
+        width: 100%!IMPORTANT;
+        height: 100%!IMPORTANT;
+        position: relative!IMPORTANT;
+        border-radius: 0px!IMPORTANT;
     }
 
 }
 @media (max-width: 999px){
     .item-img{height: 22vw;}
-    .owl-carousel .owl-item img{height: 15vw!IMPORTANT;}
+    .owl-carousel > .owl-item > img{height: 15vw!IMPORTANT;}
     .footer-nav{flex-direction: column;}
     .nav-content ul li{font-size: 15px;}
     .nav-content {
@@ -1048,9 +1060,10 @@ form.subscribes-form button:hover{opacity: 0.5;}
 }
 
 @media (max-width: 768px){
-    .item-img{height: 40vw;}
-    .owl-carousel .owl-item img{height: 20vw!IMPORTANT;}
     .like-button img {height: 20px!IMPORTANT;}
+    .item-img{height: 40vw;}
+    /* .owl-carousel .owl-item img{height: 20vw;} */
+   
     .item-content a h2{font-size: 16px;}
     .item-price {
         display: flex;
@@ -1082,7 +1095,7 @@ form.subscribes-form button:hover{opacity: 0.5;}
 
     .carousel-wrap {
         margin: 20px auto!IMPORTANT;
-        padding: 0 5%!IMPORTANT;
+        padding: 0% 0% 0% 5%!IMPORTANT;
         width: 100%!IMPORTANT;
         position: relative!IMPORTANT;
     }
@@ -1091,4 +1104,9 @@ form.subscribes-form button:hover{opacity: 0.5;}
         width: 100%;
         margin: 0 auto;
     }
+
+    .owl-item .active{
+        width: fit-content!IMPORTANT;
+    }
+    
 }
