@@ -1045,4 +1045,5 @@ form.subscribes-form button:hover{opacity: 0.5;}
     .item-img{height: 30vw;}
     .owl-carousel .owl-item img{height: 20vw!IMPORTANT;}
     .like-button img {height: 20px!IMPORTANT;}
+    .item-content a h2{font-size: 16px;}
 }
