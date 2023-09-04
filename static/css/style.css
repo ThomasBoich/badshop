@@ -238,6 +238,7 @@ img {
 .item-img {
     width: 100%;
     height: 230px;
+    height: 12vw;
     background-color: #F0F0F0;
     border-radius: 25px;
     display: flex;
@@ -894,6 +895,26 @@ form.subscribes-form button:hover{opacity: 0.5;}
     width: 20px;
     height: 20px;
     margin: 0px 8px 0px 0px;
+}
+.catalog-content{
+    display: flex;
+}
+.catalog-items{
+    width: 100%;
+}
+.catalog-content .item{
+    width: 25%;
+    float: left;
+    margin: 0vw 0vw 2vw 0vw;
+}
+.catalog-filters{
+    min-width: 300px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 15px;
+    border: 1px solid #00B44E;
+    max-width: 300px;
+    margin: 0vw 1vw 0vw 0vw;
+    height: fit-content;
 }
 @media (max-width: 1460px) {
     .navigation a {
