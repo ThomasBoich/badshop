@@ -61,6 +61,7 @@
     object-fit: contain!IMPORTANT;
     width: auto!IMPORTANT;
     height: 185px;
+    height: 9vw;
     margin: 0 auto;
   }
 
