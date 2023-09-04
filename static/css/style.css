@@ -967,6 +967,8 @@ form.subscribes-form button:hover{opacity: 0.5;}
 }
 
 @media (max-width: 1300px) {
+    .nav-content{flex-direction: column;}
+    .nav-content ul{margin: 0px 0px 20px 0px;}
     .container {
         max-width: 100% !IMPORTANT;
         border-radius: 12px !IMPORTANT;
