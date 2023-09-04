@@ -967,7 +967,7 @@ form.subscribes-form button:hover{opacity: 0.5;}
 }
 
 @media (max-width: 1300px) {
-    
+    .cabinet-button svg{height: 28px;}.cart-button img{height: 28px;}.nav-phone svg{height: 28px;}
     .nav-content{flex-direction: column;}
     .nav-content ul{margin: 0px 0px 20px 0px;}
     .container {
