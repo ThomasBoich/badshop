@@ -1125,3 +1125,6 @@ form.subscribes-form button:hover{opacity: 0.5;}
     }
     
 }
+@media (max-width: 369px){
+    .item-info{flex-direction: column;}
+}
