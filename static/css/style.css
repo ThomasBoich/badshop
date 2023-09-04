@@ -1046,4 +1046,26 @@ form.subscribes-form button:hover{opacity: 0.5;}
     .owl-carousel .owl-item img{height: 20vw!IMPORTANT;}
     .like-button img {height: 20px!IMPORTANT;}
     .item-content a h2{font-size: 16px;}
+    .item-price {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: #24439C;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .item-buy {
+        background-color: #00B44E;
+        border-radius: 50px;
+        height: fit-content;
+        font-size: 15px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        width: max-content;
+        align-items: center;
+        width: fit-content;
+        font-weight: 600;
+        padding: 9px 20px 9px 20px;
+    }
 }
