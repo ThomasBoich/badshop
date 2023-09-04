@@ -759,7 +759,7 @@ img {
     margin: 0 auto;
     font-weight: 300;
 }
-
+.adaptivesearch{display: none;}
 .overlay {
     position: fixed;
     top: 0;
@@ -967,6 +967,7 @@ form.subscribes-form button:hover{opacity: 0.5;}
 }
 
 @media (max-width: 1300px) {
+    
     .nav-content{flex-direction: column;}
     .nav-content ul{margin: 0px 0px 20px 0px;}
     .container {
@@ -1011,7 +1012,7 @@ form.subscribes-form button:hover{opacity: 0.5;}
     .nav-logo-items .drop-down{display: none;}
     .search{display: none;}
     .nav-contacts button{display: none;}
-    .navigation{display: none;}
+    .navigation a{display: none;}
     .cabinet-button span{display: none;}
     .cart-button span{display: none;}
     .cabinet-button{width: auto;}
@@ -1043,6 +1044,18 @@ form.subscribes-form button:hover{opacity: 0.5;}
         height: 100%!IMPORTANT;
         position: relative!IMPORTANT;
         border-radius: 0px!IMPORTANT;
+    }
+    .adaptivesearch{display: flex!IMPORTANT;}
+    .adaptivesearch input{font-size: 15px;padding: 9px 9px 9px 19px; height: 32px;}
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        max-width: 1790px;
+        max-width: 1262px;
+        margin: 0 auto;
+        padding: 0px 0px 12px 0px;
     }
 
 }
