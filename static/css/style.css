@@ -1488,6 +1488,9 @@ form.subscribes-form button:hover {
 @media (max-width: 1300px) {
     .cart-img {}
 
+    .item-price {
+        font-size: 16px;
+    }
 
 
     .cart-img img {
@@ -1625,6 +1628,8 @@ form.subscribes-form button:hover {
         position: relative;
         top: -8px;
     }
+
+
 
     .favorite-content .item {
         width: 49%;
@@ -1789,6 +1794,7 @@ form.subscribes-form button:hover {
         padding: 0vw !IMPORTANT;
         box-sizing: border-box !IMPORTANT;
         max-width: 120px !IMPORTANT;
+        max-height: 135px;
     }
 
     .sale-button {
@@ -1910,9 +1916,9 @@ form.subscribes-form button:hover {
     }
 
     .carousel-wrap span {
-        font-size: 24px !IMPORTANT;
+        font-size: 16px !IMPORTANT;
         font-weight: 700 !IMPORTANT;
-        margin: 0px 0px 20px 0px !IMPORTANT;
+        margin: 0px 8px 0px 0px !IMPORTANT;
         display: inline-flex !IMPORTANT;
     }
 
@@ -2091,6 +2097,10 @@ form.subscribes-form button:hover {
     img.like-img {
         height: 20px !IMPORTANT;
     }
+
+    span.item-title {
+        margin: 0px 0px 20px 0px !IMPORTANT;
+    }
 }
 
 @media (max-width: 999px) {
@@ -2136,7 +2146,7 @@ form.subscribes-form button:hover {
     }
 
     .item-img {
-        height: 40vw;
+        height: fit-content;
     }
 
     /* .owl-carousel .owl-item img{height: 20vw;} */
