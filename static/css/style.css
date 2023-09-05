@@ -1505,51 +1505,51 @@ form.subscribes-form button:hover {
     }
 
     .number {
-        user-select: none;
-        position: relative;
-        text-align: left;
-        padding: 0;
-        width: 79px;
-        display: inline-block;
-        border: 1px solid #00b44e;
-        border-radius: 5px;
-        margin: 0px 12px 0px 0px;
-        margin-top: 0px;
-        margin-right: 12px;
-        margin-bottom: 0px;
-        margin-left: 0px;
+        user-select: none !IMPORTANT;
+        position: relative !IMPORTANT;
+        text-align: left !IMPORTANT;
+        padding: 0 !IMPORTANT;
+        width: 75px !IMPORTANT;
+        display: inline-block !IMPORTANT;
+        border: 1px solid #00b44e !IMPORTANT;
+        border-radius: 5px !IMPORTANT;
+        margin: 0px 12px 0px 0px !IMPORTANT;
+        margin-top: 0px !IMPORTANT;
+        margin-right: 12px !IMPORTANT;
+        margin-bottom: 0px !IMPORTANT;
+        margin-left: 0px !IMPORTANT;
     }
 
     .number-minus, .number-plus {
-        position: absolute;
-        top: 0;
-        width: 32px;
-        height: 32px;
-        line-height: 32px;
-        display: block;
-        font-size: 19px;
-        font-weight: 600;
-        text-align: center;
-        font-family: arial;
-        color: #CCCCCC;
-        text-decoration: none;
+        position: absolute !IMPORTANT;
+        top: 0 !IMPORTANT;
+        width: 32px !IMPORTANT;
+        height: 32px !IMPORTANT;
+        line-height: 32px !IMPORTANT;
+        display: block !IMPORTANT;
+        font-size: 19px !IMPORTANT;
+        font-weight: 600 !IMPORTANT;
+        text-align: center !IMPORTANT;
+        font-family: arial !IMPORTANT;
+        color: #CCCCCC !IMPORTANT;
+        text-decoration: none !IMPORTANT;
     }
 
     .number-text {
-        display: inline-block;
-        font-size: 14px;
-        color: #000;
-        line-height: 32px;
-        height: 32px;
-        padding: 0;
-        margin: 0px 0 0 42px;
+        display: inline-block !IMPORTANT;
+        font-size: 14px !IMPORTANT;
+        color: #000 !IMPORTANT;
+        line-height: 32px !IMPORTANT;
+        height: 32px !IMPORTANT;
+        padding: 0 !IMPORTANT;
+        margin: 0px 0 0 42px !IMPORTANT;
         background: #fff;
-        outline: none;
-        border: none;
-        width: 7px;
-        text-align: center;
-        position: relative;
-        left: -5px;
+        outline: none !IMPORTANT;
+        border: none !IMPORTANT;
+        width: 12px !IMPORTANT;
+        text-align: center !IMPORTANT;
+        position: relative !IMPORTANT;
+        left: -12px !IMPORTANT;
     }
 
     .cart-item {
@@ -1606,7 +1606,7 @@ form.subscribes-form button:hover {
     .content-adress {
         border-radius: 25px;
         border: 0;
-        padding: 20px 0px 20px 0px;
+        padding: 0px 0px 20px 0px;
     }
 
     .adress-title span {
@@ -1696,6 +1696,17 @@ form.subscribes-form button:hover {
         display: block;
     }
 
+    .cabinet-nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 1px solid #00B44E;
+        height: fit-content;
+        display: none;
+    }
+
     .footer-nav {
         flex-direction: column;
     }
@@ -1725,12 +1736,30 @@ form.subscribes-form button:hover {
         height: 127px;
     }
 
+    .nav-main:nth-of-type(1n) {
+        margin: 0% 0% 2% 0%;
+    }
+
     .nav-main:nth-of-type(2n) {
         margin: 0% 0% 2% 0%;
     }
 
     .nav-main:nth-of-type(3n) {
-        margin: 0% 2% 2% 0%;
+        margin: 0% 0% 2% 0%;
+    }
+
+    .nav-main:nth-of-type(4n) {
+        margin: 0% 0% 2% 0%;
+    }
+
+    .nav-main {
+        width: 50%;
+        margin: 0% 2% 0% 0%;
+    }
+
+
+    .nav-main:nth-of-type(3n) {
+        margin: auto auto auto auto;
     }
 
     .cabinet-layer {
