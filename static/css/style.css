@@ -1653,9 +1653,9 @@ form.subscribes-form button:hover {
         border-radius: 25px;
         color: #FFFFFF;
         border: none;
-        padding: 15px 12px 15px 12px;
+        padding: 15px 20px 15px 20px;
         font-size: 16px;
-        width: 100%;
+        width: fit-content;
         margin: 20px 0px 0px 0px;
     }
 
