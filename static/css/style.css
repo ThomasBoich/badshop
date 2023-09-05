@@ -260,6 +260,7 @@ img {
     justify-content: center;
     padding: 20px 20px 20px 20px;
     position: relative;
+    max-height: 240px;
 }
 
 .item-img p {

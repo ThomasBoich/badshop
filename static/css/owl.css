@@ -3,6 +3,7 @@
   padding: 0 5%;
   width: 80%;
   position: relative;
+  max-width: 1790px;
 }
 
 /* fix blank or flashing items on carousel */
@@ -79,6 +80,7 @@
   z-index: 100;
   -webkit-backface-visibility: hidden;
   width: 95%;
+  max-width: 267px;
 }
 
 
