@@ -1791,6 +1791,20 @@ form.subscribes-form button:hover {
         max-width: 120px !IMPORTANT;
     }
 
+    .sale-button {
+        position: absolute;
+        left: 8%;
+        top: 8%;
+        background-color: #00B44E;
+        color: #FFFFFF;
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 2px 9px 2px 9px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
     .image-item {
         height: 185px !IMPORTANT;
         height: 35vw !IMPORTANT;
