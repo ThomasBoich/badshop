@@ -29,7 +29,7 @@ img {
 .content {
     width: 100%;
     margin: 0 auto;
-    margin: auto auto 40px;
+    /* margin: auto auto 40px; */
     padding: 0px 0px 0px 0px;
     max-width: 1262px;
 }
