@@ -1691,8 +1691,9 @@ form.subscribes-form button:hover {
         border-radius: 15px;
         border: 2px solid #00B44E;
         padding: 12px 20px 12px 20px;
-        width: 100%;
+        width: initial;
         font-size: 16px;
+        display: block;
     }
 
     .footer-nav {
