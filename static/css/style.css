@@ -2264,4 +2264,20 @@ form.subscribes-form button:hover {
         right: 5px;
         position: relative;
     }
+
+    .new-adress {
+        background-color: #00B44E;
+        color: #FFFFFF;
+        border-radius: 15px;
+        padding: 9px 14px 9px 14px;
+        font-size: 12px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .adress-title {
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+    }
 }
