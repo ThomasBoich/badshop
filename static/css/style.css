@@ -1486,6 +1486,87 @@ form.subscribes-form button:hover {
 }
 
 @media (max-width: 1300px) {
+    .cart-img {}
+
+    .cart-img img {
+        width: auto;
+        height: 27vw;
+    }
+
+    .cart-item h2 {
+        font-size: 14px;
+        width: 79%;
+    }
+
+    .summ {
+        display: flex;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .number {
+        user-select: none;
+        position: relative;
+        text-align: left;
+        padding: 0;
+        width: 79px;
+        display: inline-block;
+        border: 1px solid #00b44e;
+        border-radius: 5px;
+        margin: 0px 12px 0px 0px;
+        margin-top: 0px;
+        margin-right: 12px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .number-minus, .number-plus {
+        position: absolute;
+        top: 0;
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        display: block;
+        font-size: 19px;
+        font-weight: 600;
+        text-align: center;
+        font-family: arial;
+        color: #CCCCCC;
+        text-decoration: none;
+    }
+
+    .number-text {
+        display: inline-block;
+        font-size: 14px;
+        color: #000;
+        line-height: 32px;
+        height: 32px;
+        padding: 0;
+        margin: 0px 0 0 42px;
+        background: #fff;
+        outline: none;
+        border: none;
+        width: 7px;
+        text-align: center;
+        position: relative;
+        left: -5px;
+    }
+
+    .cart-item {
+        display: flex;
+        border: 1px solid #00B44E;
+        border-radius: 15px;
+        padding: 20px 0px 0px 20px;
+        margin: 0px 0px 20px 0px;
+        width: 100%;
+    }
+
+    .cart-item h2 {
+        font-size: 14px;
+        width: 79%;
+        margin: 0px 0px 12px 0px;
+    }
+
     .email-subscribes input {
         width: -webkit-fill-available;
     }
@@ -1578,6 +1659,23 @@ form.subscribes-form button:hover {
         margin: 20px 0px 0px 0px;
     }
 
+    .cabinet-nav-main a {
+        border: 1px solid #00B44E;
+        border-radius: 15px;
+        padding: 20px 20px 20px 20px;
+        float: left;
+        width: 34%;
+        margin: 0% 2% 2% 0%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        font-size: 20px;
+        font-weight: 500;
+        height: auto;
+    }
+
     .user-input p {
         position: relative;
         background-color: #FFFFFF;
@@ -1593,7 +1691,7 @@ form.subscribes-form button:hover {
         border-radius: 15px;
         border: 2px solid #00B44E;
         padding: 12px 20px 12px 20px;
-        width: 300px;
+        width: 100%;
         font-size: 16px;
     }
 
@@ -1614,16 +1712,16 @@ form.subscribes-form button:hover {
         border-radius: 15px;
         padding: 20px 20px 20px 20px;
         float: left;
-        width: 37%;
+        width: 34%;
         margin: 0% 2% 2% 0%;
         justify-content: center;
         align-items: center;
         text-align: center;
         flex-direction: column;
         display: flex;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 500;
-        height: 200px;
+        height: 127px;
     }
 
     .nav-main:nth-of-type(2n) {
@@ -1924,7 +2022,7 @@ form.subscribes-form button:hover {
         border-radius: 15px;
         border: 1px solid #00B44E;
         width: 100%;
-        min-width: 378px;
+        min-width: auto;
         display: flex;
         margin: 0px 0px 0px 0px;
         height: fit-content;
