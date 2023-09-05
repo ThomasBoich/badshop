@@ -1479,6 +1479,11 @@ form.subscribes-form button:hover {
     width: 400px;
 }
 
+.item-img.categoties-item {
+    height: auto !IMPORTANT;
+    min-height: 270px !IMPORTANT;
+}
+
 @media (max-width: 1460px) {
     .navigation a {
         font-size: 16px;
@@ -2101,6 +2106,11 @@ form.subscribes-form button:hover {
     span.item-title {
         margin: 0px 0px 20px 0px !IMPORTANT;
     }
+
+    .item-img.categoties-item {
+        height: auto !IMPORTANT;
+        min-height: 248px !IMPORTANT;
+    }
 }
 
 @media (max-width: 999px) {
@@ -2207,6 +2217,11 @@ form.subscribes-form button:hover {
     .item-rating svg {
         margin: 0px;
         height: 15px;
+    }
+
+    .item-img.categoties-item {
+        height: auto !IMPORTANT;
+        min-height: 248px !IMPORTANT;
     }
 }
 
