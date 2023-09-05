@@ -1715,7 +1715,15 @@ form.subscribes-form button:hover {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        margin: 0px 0px 40px 0px;
+        margin: 0px 0px 12px 0px;
+        flex-direction: column;
+    }
+
+    .footer-contacts {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0px 0px 12px 0px;
         flex-direction: column;
     }
 
@@ -1737,30 +1745,26 @@ form.subscribes-form button:hover {
     }
 
     .nav-main:nth-of-type(1n) {
-        margin: 0% 0% 2% 0%;
+        margin: initial;
     }
 
     .nav-main:nth-of-type(2n) {
-        margin: 0% 0% 2% 0%;
+        margin: initial;
     }
 
     .nav-main:nth-of-type(3n) {
-        margin: 0% 0% 2% 0%;
+        margin: initial;
     }
 
     .nav-main:nth-of-type(4n) {
-        margin: 0% 0% 2% 0%;
+        margin: initial;
     }
 
     .nav-main {
-        width: 50%;
-        margin: 0% 2% 0% 0%;
+        margin: 0% 2% 2% 0% !IMPORTANT;
+        width: 33.4% !IMPORTANT;
     }
 
-
-    .nav-main:nth-of-type(3n) {
-        margin: auto auto auto auto;
-    }
 
     .cabinet-layer {
         flex-direction: column;
@@ -2007,6 +2011,9 @@ form.subscribes-form button:hover {
 
     .footer-contacts .drop-down {
         margin: 0px 0px 20px 0px;
+        font-size: 14px;
+        padding: 4px 20px 4px 20px;
+        height: 40px;
     }
 
     .copiryght {
