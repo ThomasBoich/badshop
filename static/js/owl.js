@@ -7,7 +7,7 @@ $('.owl-carousel').owlCarousel({
     "<img src='./static/img/VectorRight.svg' />"
   ],
   autoplay: false,
-  autoplayHoverPause: true,
+  autoplayHoverPause: false,
   responsive: {
     0: {
       items: 2
