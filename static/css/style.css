@@ -1480,8 +1480,8 @@ form.subscribes-form button:hover {
 }
 
 .item-img.categoties-item {
-    height: auto !IMPORTANT;
-    min-height: 270px !IMPORTANT;
+    height: 30vw !IMPORTANT;
+    max-height: 270px !IMPORTANT;
 }
 
 @media (max-width: 1460px) {
@@ -1491,6 +1491,10 @@ form.subscribes-form button:hover {
 }
 
 @media (max-width: 1300px) {
+    .item-img p {
+        font-size: 16px !IMPORTANT;
+    }
+
     .cart-img {}
 
     .item-price {
