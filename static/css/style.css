@@ -2229,6 +2229,10 @@ form.subscribes-form button:hover {
         padding: 0px 0px 0px 0px;
     }
 
+    .item-img.categoties-item p {
+        height: 35px;
+    }
+
 
 }
 
