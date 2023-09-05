@@ -28,7 +28,7 @@ img {
 
 .content {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto;margin: auto auto 40px;
     padding: 0px 0px 0px 0px;
     max-width: 1262px;
 }
@@ -967,13 +967,43 @@ form.subscribes-form button:hover{opacity: 0.5;}
 }
 
 @media (max-width: 1300px) {
+    .tabs{display: none;}
+    .owl-carousel .owl-item img {
+        object-fit: cover!IMPORTANT;
+        width: auto!IMPORTANT;
+        height: 185px!IMPORTANT;
+        height: 35vw!IMPORTANT;
+        margin: 0 auto!IMPORTANT;
+        padding: 0vw!IMPORTANT;
+        box-sizing: border-box!IMPORTANT;
+        max-width: 120px!IMPORTANT;
+    }.catalog-filters-form-pc{display: none;}.catalog-filters{border: none;}
+    .item-content-layout{flex-direction: column;}
+    .item-img-page-content{width: 100%;height: auto;margin: 0vw 0vw 5vw 0vw;}.content h1{font-size: 24px;}
+    .item-actions{padding: 12px 12px 12px 12px;width: 100%;}.tabs{margin: 0px 0px 20px 0px;}
+    .item-img-page-content img {
+        width: 50vw;
+        object-fit: cover;
+    }
+    .item-content a h2{margin: 0px 0px 5px 0px;}
+    .item-info{margin: 0px 0px 5px 0px;}
+    .catalog{width: 100%;}
+    .catalog-link:nth-of-type(5n) .catalog-item {
+        margin: 0% 2% 2% 0%;
+    }
+    .catalog h1{
+        margin: 0px 0px 20px 0px;
+    }
+    .catalog-item{width: 47%;padding: 8vw;min-width: auto;min-height: auto;}
+    .catalog-item span{font-size: 4.2vw;}
+    .catalog-content{flex-direction: column;}
     .cabinet-button svg{height: 28px;}.cart-button img{height: 28px;}.nav-phone svg{height: 28px;}
     .nav-content{flex-direction: column;}
     .nav-content ul{margin: 0px 0px 20px 0px;}
     .container {
         max-width: 100% !IMPORTANT;
         border-radius: 12px !IMPORTANT;
-        height: 300px!IMPORTANT;
+        height: 300px!IMPORTANT;height: 50vw!IMPORTANT;
         padding: 0px 0px 0px 0px!IMPORTANT;
     }
     .carousel-wrap span {
@@ -988,15 +1018,25 @@ form.subscribes-form button:hover{opacity: 0.5;}
         cursor: pointer!IMPORTANT;
         background-color: #417f56!IMPORTANT;
         background-color: #00B44E!IMPORTANT;
-        padding: 12px 20px 12px 20px!IMPORTANT;
+        padding: 9px 20px 9px 20px!IMPORTANT;
         color: #fff!IMPORTANT;
         border-radius: 50px!IMPORTANT;
         height: fit-content!IMPORTANT;
-        font-size: 15px!IMPORTANT;
+        font-size: 12px!IMPORTANT;
         font-weight: 500!IMPORTANT;
         display: flex!IMPORTANT;
         align-items: center!IMPORTANT;
         cursor: pointer!IMPORTANT;
+    }
+    .image-box .centered-text {
+        position: absolute!IMPORTANT;
+        top: 50%!IMPORTANT;
+        left: 50%!IMPORTANT;
+        left: 15%!IMPORTANT;
+        transform: translate(-25%, -50%)!IMPORTANT;
+        display: flex!IMPORTANT;
+        flex-direction: column!IMPORTANT;
+        gap: 12px!IMPORTANT;
     }
     .image-box .centered-text p {
         font-size: 15px!IMPORTANT;
@@ -1046,7 +1086,11 @@ form.subscribes-form button:hover{opacity: 0.5;}
         border-radius: 0px!IMPORTANT;
     }
     .adaptivesearch{display: flex!IMPORTANT;}
-    .adaptivesearch input{font-size: 15px;padding: 9px 9px 9px 19px; height: 32px;}
+    .adaptivesearch input {
+        font-size: 15px;
+        padding: 9px 9px 9px 19px;
+        height: 20px;
+    }
     .navigation {
         display: flex;
         justify-content: center;
@@ -1072,9 +1116,15 @@ form.subscribes-form button:hover{opacity: 0.5;}
         margin: 0px 0px 20px 0px;
     }
     .footer-contacts{flex-direction: column;}
+    
 }
 
 @media (max-width: 768px){
+    .catalog-content .item {
+        width: 47%;
+        float: left;
+        margin: 0vw 2.7vw 2vw 0vw;
+    }
     .like-button img {height: 20px!IMPORTANT;}
     .item-img{height: 40vw;}
     /* .owl-carousel .owl-item img{height: 20vw;} */
@@ -1111,6 +1161,7 @@ form.subscribes-form button:hover{opacity: 0.5;}
     .carousel-wrap {
         margin: 20px auto!IMPORTANT;
         padding: 0% 0% 0% 5%!IMPORTANT;
+        padding: 0% 0% 0% 5%!IMPORTANT;
         width: 100%!IMPORTANT;
         position: relative!IMPORTANT;
     }
@@ -1127,6 +1178,9 @@ form.subscribes-form button:hover{opacity: 0.5;}
         margin: 0px;
         height: 15px;
     }
+}
+@media (max-width: 490px){
+    .catalog-link:nth-of-type(2n) .catalog-item{margin:0% 0% 2% 0%;}
 }
 @media (max-width: 370px){
     .item-info{
