@@ -1481,7 +1481,7 @@ form.subscribes-form button:hover {
 
 .item-img.categoties-item {
     height: 30vw !IMPORTANT;
-    max-height: 270px !IMPORTANT;
+    max-height: 250px !IMPORTANT;
 }
 
 @media (max-width: 1460px) {
