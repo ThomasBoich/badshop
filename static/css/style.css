@@ -1490,6 +1490,22 @@ form.subscribes-form button:hover {
         width: -webkit-fill-available;
     }
 
+    .rectangle {
+        position: absolute;
+        z-index: 2;
+        bottom: -12vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .rectangle {
+        position: relative !IMPORTANT;
+        z-index: 2 !IMPORTANT;
+        bottom: -5vw !IMPORTANT;
+        left: 50% !IMPORTANT;
+        transform: translate(-50%, -50%) !IMPORTANT;
+    }
+
     .new-adress {
         background-color: #00B44E;
         color: #FFFFFF;
