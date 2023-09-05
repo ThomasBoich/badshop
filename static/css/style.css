@@ -1921,9 +1921,10 @@ form.subscribes-form button:hover {
 
     .image-box .centered-text p {
         font-size: 15px !IMPORTANT;
-        max-width: 350px !IMPORTANT;
+        max-width: 320px !IMPORTANT;
         text-wrap: wrap !IMPORTANT;
         font-weight: 400 !IMPORTANT;
+        width: fit-content;
     }
 
     .drop-down {
