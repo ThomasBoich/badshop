@@ -8,7 +8,7 @@
 
 /* Обязательные правила */
 body.modal-show {
-    overflow: hidden;
+    position: fixed;
 }
 
 a {
