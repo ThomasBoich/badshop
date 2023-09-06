@@ -1501,9 +1501,10 @@ form.subscribes-form button:hover {
 }
 
 .item-img.categoties-item img {
-    max-height: 150px !IMPORTANT;
-    height: 150px !IMPORTANT;
+    max-height: 120px !IMPORTANT;
+    height: 120px !IMPORTANT;
     padding: 20px 20px 20px 20px !IMPORTANT;
+    margin: 0px 0px 0px 0px !IMPORTANT;
 }
 
 .item-actions {}
@@ -1578,6 +1579,7 @@ span.large-price {
 
     .item-img p {
         font-size: 16px !IMPORTANT;
+        margin: 0px 0px 12px 0px;
     }
 
     .item-actions a {
@@ -1915,6 +1917,12 @@ span.large-price {
         height: 120px;
     }
 
+    .item-img.categoties-item img {
+        max-height: 120px !IMPORTANT;
+        height: 120px !IMPORTANT;
+        padding: 20px 20px 20px 20px !IMPORTANT;
+        margin: 0px 0px 0px 0px !IMPORTANT;
+    }
 
     .sale-button {
         position: absolute;
