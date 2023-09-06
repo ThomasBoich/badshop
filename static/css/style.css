@@ -1636,6 +1636,11 @@ span.large-price {
 }
 
 @media (max-width: 1300px) {
+    .nav-burger img {
+        height: 40px !IMPORTANT;
+        min-height: 40px !IMPORTANT;
+    }
+
     .nav-burger {
         display: flex;
     }
@@ -2450,6 +2455,11 @@ span.large-price {
 }
 
 @media (max-width: 490px) {
+    .nav-burger img {
+        height: 40px !IMPORTANT;
+        min-height: 40px !IMPORTANT;
+    }
+
     .catalog-link:nth-of-type(2n) .catalog-item {
         margin: 0% 0% 2% 0%;
     }
