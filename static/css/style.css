@@ -6,6 +6,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Обязательные правила */
+body.modal-show {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
     color: inherit;
