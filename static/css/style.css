@@ -1642,6 +1642,15 @@ span.large-price {
 }
 
 @media (max-width: 1300px) {
+    .value-layer {
+        flex-direction: column;
+    }
+
+    .value1 {
+        margin: 0px 0px 12px 0px;
+        padding: 20px 20px 20px 20px;
+    }
+
     .nav-burger img {
         height: 40px !IMPORTANT;
         min-height: 40px !IMPORTANT;
@@ -2329,8 +2338,26 @@ span.large-price {
 }
 
 @media (max-width: 999px) {
+    .sails-layer img {
+        width: 100%;
+    }
+
+    .blog-item {
+        width: 100%;
+    }
+
     .item-img {
         height: 22vw;
+    }
+
+    .dev-info {
+        flex-direction: column;
+        display: flex;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .dev {
+        flex-direction: column;
     }
 
     .owl-carousel>.owl-item>img {
