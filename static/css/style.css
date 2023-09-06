@@ -2314,6 +2314,7 @@ span.large-price {
         padding: 0% 0% 0% 2% !IMPORTANT;
         width: 99% !IMPORTANT;
         position: relative !IMPORTANT;
+        margin: 20px auto auto !IMPORTANT;
     }
 
     .item-content {
