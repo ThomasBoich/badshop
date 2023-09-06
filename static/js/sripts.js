@@ -22,11 +22,25 @@
   
 //     window.addEventListener('resize', setViewportScale);
 //   });
+var lastScrollPosition = 0;
+
 window.addEventListener('scroll', function() {
-    var nav = document.querySelector('.navigation');
-    if (window.pageYOffset > 0) {
-      nav.classList.add('swipe');
-    } else {
+  var nav = document.querySelector('.navigation');
+  var currentScrollPosition = window.pageYOffset;
+
+  // Проверка направления скролла и добавление/удаление класса
+  if (currentScrollPosition > 0) {
+    if (currentScrollPosition < lastScrollPosition) {
+      // Скролл вверх
       nav.classList.remove('swipe');
+    } else {
+      // Скролл вниз
+      nav.classList.add('swipe');
     }
-  });
+  } else {
+    nav.classList.remove('swipe');
+  }
+
+  // Обновление позиции скролла для следующего события
+  lastScrollPosition = currentScrollPosition;
+});

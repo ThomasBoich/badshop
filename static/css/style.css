@@ -238,6 +238,8 @@ img {
     height: 0px;
     padding: 0px 0px 0px 0px;
     transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
 }
 
 .navigation a:hover {
@@ -2307,7 +2309,7 @@ span.large-price {
     }
 
     .carousel-wrap {
-        margin: 20px 0px 0px 8px !IMPORTANT;
+        margin: 20px 0px 0px 0px !IMPORTANT;
         padding: 0% 0% 0% 5% !IMPORTANT;
         padding: 0% 0% 0% 2% !IMPORTANT;
         width: 100% !IMPORTANT;
