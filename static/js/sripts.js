@@ -50,7 +50,7 @@ const modal = document.querySelector('.modal');
 
 navBurger.addEventListener('click', function() {
   modal.classList.toggle('open-modal');
-  document.body.classList.add('modal-show');
+  document.body.classList.toggle('modal-show');
 });
 
 closeNavBurger.addEventListener('click', function() {
