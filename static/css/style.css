@@ -50,7 +50,7 @@ a {
     flex-direction: column;
     padding: 20px 0px 0px 0px;
     overflow-y: scroll !IMPORTANT;
-    height: 100vh;
+    height: 120vh;
 }
 
 .modal-content a {
