@@ -1485,6 +1485,12 @@ form.subscribes-form button:hover {
     max-height: 250px !IMPORTANT;
 }
 
+.item-img.categoties-item img {
+    max-height: 150px !IMPORTANT;
+    height: 150px !IMPORTANT;
+    padding: 20px 20px 20px 20px !IMPORTANT;
+}
+
 .item-actions {}
 
 .item-actions p {
