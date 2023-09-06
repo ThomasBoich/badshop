@@ -13,7 +13,7 @@ a {
 
 .modal {
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 62px);
     overflow: hidden;
     overflow-y: auto;
     background-color: #FFFFFF;
@@ -21,7 +21,7 @@ a {
     flex-direction: column;
     position: fixed;
     display: none;
-    top: 70px;
+    top: 62px;
     right: 0;
     left: 0;
     z-index: 9999999;
@@ -126,6 +126,7 @@ img {
     margin: 0px 20px 0px 0px;
     display: none;
     cursor: pointer;
+    min-width: 25px !IMPORTANT;
 }
 
 .nav-burger:hover {
@@ -133,8 +134,10 @@ img {
 }
 
 .nav-burger img {
-    height: 40px !IMPORTANT;
-    min-height: 40px !IMPORTANT;
+    height: 25px !IMPORTANT;
+    min-height: 25px !IMPORTANT;
+    max-width: 25px !IMPORTANT;
+    width: 25px !IMPORTANT;
 }
 
 .logo:hover {
