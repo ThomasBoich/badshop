@@ -1570,6 +1570,7 @@ span.large-price {
 @media (max-width: 1300px) {
     .content-layout {
         width: 90%;
+        width: 100%;
         max-width: 1790px;
         margin: 0 auto;
         display: flex;
