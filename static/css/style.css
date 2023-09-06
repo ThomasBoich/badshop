@@ -19,8 +19,6 @@ a {
 .modal {
     width: 100%;
     height: calc(100vh - 62px);
-    overflow: hidden;
-    overflow-y: auto;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -53,6 +51,7 @@ a {
     display: flex;
     flex-direction: column;
     padding: 20px 0px 0px 0px;
+    min-height: 100vh;
 }
 
 .modal-content a {
