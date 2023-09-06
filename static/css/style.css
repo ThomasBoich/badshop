@@ -133,7 +133,8 @@ img {
 }
 
 .nav-burger img {
-    height: 25px;
+    height: 40px !IMPORTANT;
+    min-height: 40px !IMPORTANT;
 }
 
 .logo:hover {
