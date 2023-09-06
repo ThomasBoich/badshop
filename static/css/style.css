@@ -1902,6 +1902,17 @@ span.large-price {
         box-sizing: border-box !IMPORTANT;
         max-width: 120px !IMPORTANT;
         max-height: 120px;
+
+
+
+        object-fit: cover !IMPORTANT;
+        width: auto !IMPORTANT;
+        margin: 0px 0px 0px 0px !IMPORTANT;
+        padding: 0vw !IMPORTANT;
+        box-sizing: border-box !IMPORTANT;
+        max-width: 120px !IMPORTANT;
+        max-height: 120px;
+        height: 120px;
     }
 
 
