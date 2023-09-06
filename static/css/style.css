@@ -24,6 +24,7 @@ img {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    padding: 160px 0px 0px 0px;
 }
 
 .content {
@@ -41,6 +42,7 @@ img {
 .nav-layout {
     width: 100%;
     position: sticky;
+    position: fixed;
     top: 0;
     background-color: #FFFFFF;
     z-index: 99;
@@ -229,6 +231,13 @@ img {
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
+}
+
+.swipe.navigation {
+    overflow: hidden;
+    height: 0px;
+    padding: 0px 0px 0px 0px;
+    transition: all 0.2s;
 }
 
 .navigation a:hover {
@@ -1556,6 +1565,15 @@ span.large-price {
 }
 
 @media (max-width: 1300px) {
+    .content-layout {
+        width: 90%;
+        max-width: 1790px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 100px 0px 0px 0px;
+    }
+
     .item-img p {
         font-size: 16px !IMPORTANT;
     }

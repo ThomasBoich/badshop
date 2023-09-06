@@ -22,3 +22,11 @@
   
 //     window.addEventListener('resize', setViewportScale);
 //   });
+window.addEventListener('scroll', function() {
+    var nav = document.querySelector('.navigation');
+    if (window.pageYOffset > 0) {
+      nav.classList.add('swipe');
+    } else {
+      nav.classList.remove('swipe');
+    }
+  });
