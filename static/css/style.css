@@ -20,7 +20,7 @@ a {
     width: 100%;
     height: calc(100vh - 62px);
     overflow: hidden !IMPORTANT;
-    overflow-y: auto !IMPORTANT;
+    overflow-y: scroll !IMPORTANT;
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
