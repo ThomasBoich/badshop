@@ -2338,6 +2338,33 @@ span.large-price {
 }
 
 @media (max-width: 999px) {
+    .brend-link:nth-of-type(1n) .catalog-item {
+        margin: initial;
+    }
+
+    .brend-link:nth-of-type(3n) .catalog-item {
+        margin: initial;
+    }
+
+    .brend-link:nth-of-type(4n) .catalog-item {
+        margin: initial;
+    }
+
+    .brend-link:nth-of-type(5n) .catalog-item {
+        margin: initial;
+    }
+
+    .brend-link .catalog-item {
+        margin: 0% 2.5% 2% 0% !IMPORTANT;
+    }
+
+
+    .brend-link:nth-of-type(2n) .catalog-item {
+        margin: 0% 0% 2% 0% !IMPORTANT;
+        width: 48%;
+    }
+
+
     .sails-layer img {
         width: 100%;
     }
