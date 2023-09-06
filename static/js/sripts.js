@@ -43,3 +43,15 @@ window.addEventListener('scroll', function() {
     lastScrollPosition = currentScrollPosition;
   }
 });
+
+const navBurger = document.querySelector('.nav-burger');
+const closeNavBurger = document.querySelector('.close-nav-burger');
+const modal = document.querySelector('.modal');
+
+navBurger.addEventListener('click', function() {
+  modal.classList.toggle('open-modal');
+});
+
+closeNavBurger.addEventListener('click', function() {
+  modal.classList.remove('open-modal');
+});

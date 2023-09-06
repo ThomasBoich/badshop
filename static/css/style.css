@@ -11,6 +11,53 @@ a {
     color: inherit;
 }
 
+.modal {
+    width: 100%;
+    height: calc(100vh - 70px);
+    overflow: hidden;
+    overflow-y: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    display: none;
+    top: 70px;
+    right: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+
+.open-modal {
+    display: flex !IMPORTANT;
+}
+
+
+.close-nav-burger {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.modal-content {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 0px;
+}
+
+.modal-content a {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 0px 20px 0px;
+    border-bottom: 1px solid #999999;
+    padding: 0px 0px 20px 0px;
+}
+
 div,
 p,
 span,
@@ -71,6 +118,22 @@ img {
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.nav-burger {
+    margin: 0px 20px 0px 0px;
+    display: none;
+    cursor: pointer;
+}
+
+.nav-burger:hover {
+    opacity: 0.5;
+}
+
+.nav-burger img {
+    height: 25px;
 }
 
 .logo:hover {
@@ -1572,6 +1635,10 @@ span.large-price {
 }
 
 @media (max-width: 1300px) {
+    .nav-burger {
+        display: flex;
+    }
+
     .content-layout {
         width: 90%;
         width: 100%;
