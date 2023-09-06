@@ -23,13 +23,14 @@
 //     window.addEventListener('resize', setViewportScale);
 //   });
 var lastScrollPosition = 0;
+var scrollThreshold = 90;
 
 window.addEventListener('scroll', function() {
   var nav = document.querySelector('.navigation');
   var currentScrollPosition = window.pageYOffset;
+  var scrollDifference = Math.abs(currentScrollPosition - lastScrollPosition);
 
-  // Проверка направления скролла и добавление/удаление класса
-  if (currentScrollPosition > 0) {
+  if (scrollDifference >= scrollThreshold) {
     if (currentScrollPosition < lastScrollPosition) {
       // Скролл вверх
       nav.classList.remove('swipe');
@@ -37,10 +38,8 @@ window.addEventListener('scroll', function() {
       // Скролл вниз
       nav.classList.add('swipe');
     }
-  } else {
-    nav.classList.remove('swipe');
-  }
 
-  // Обновление позиции скролла для следующего события
-  lastScrollPosition = currentScrollPosition;
+    // Обновление позиции скролла для следующего события
+    lastScrollPosition = currentScrollPosition;
+  }
 });
