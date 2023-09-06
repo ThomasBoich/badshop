@@ -1,5 +1,6 @@
 .carousel-wrap {
   margin: 90px auto;
+  margin: auto auto 90px;
   padding: 0 5%;
   width: 80%;
   position: relative;

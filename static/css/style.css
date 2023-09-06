@@ -1060,6 +1060,10 @@ img {
     display: none;
 }
 
+.container {
+    margin: auto auto 90px !IMPORTANT;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -1581,6 +1585,10 @@ span.large-price {
     .content {
         width: 90% !IMPORTANT;
         margin: 0 auto !IMPORTANT;
+    }
+
+    .container {
+        margin: auto auto 40px;
     }
 
     .item-img p {
@@ -2273,6 +2281,10 @@ span.large-price {
 }
 
 @media (max-width: 768px) {
+    .container {
+        margin: auto auto 20px !IMPORTANT;
+    }
+
     .catalog-content .item {
         width: 47%;
         float: left;
@@ -2372,6 +2384,10 @@ span.large-price {
 @media (max-width: 490px) {
     .catalog-link:nth-of-type(2n) .catalog-item {
         margin: 0% 0% 2% 0%;
+    }
+
+    .container {
+        margin: auto auto 0px !IMPORTANT;
     }
 }
 
