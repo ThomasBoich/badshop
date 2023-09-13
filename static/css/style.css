@@ -125,6 +125,11 @@ img {
     align-items: center;
 }
 
+.logo img {
+    max-width: 179px;
+    height: fit-content;
+}
+
 .nav-burger {
     margin: 0px 20px 0px 0px;
     display: none;
